@@ -1,38 +1,22 @@
-# sv
+# Uber Driver Companion App
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Companion for drivers, who want to have control on their earnings
 
-## Creating a project
+## Objective
+This app aims to help Uber Drivers to keep track of information, that might be useful for them about their rides
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Functionalities
+### Income tracking
+- Keep track of your gross income
+- Keep track of your net income, based on different factors like fuel spendings and car maintanance
+- See your gains by different time frames
+- Automatically divide your earnings into net gain and maintenance gain
 
-```bash
-# create a new project in the current directory
-npx sv create
+### Spending forecasts
+- Forecast your possible spendings, based on parameters like current fuel price, length of trips + gasoline expense
 
-# create a new project in my-app
-npx sv create my-app
-```
+### Detailed trips descriptions + history
+- Create detailed descriptions that show the length of the trip, gain by km, gasoline expense, total net gain, total amount for maintenance
+- History of your trips accessible at any time
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
